@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baarthy</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body style="font-family: Poppins, sans-serif;">
+    <nav
+      class="flex justify-between px-16 py-2 items-center w-full z-1 fixed"
+      style="background-color: rgb(0, 0, 0, 0.3)"
+    >
+      <img class="h-[72px]" src="img/logo.png" alt="Logo Baarthy" />
+      <ul class="flex gap-8">
+        <li><a class="text-lg text-white hover:underline" href="#beranda">Beranda</a></li>
+        <li><a class="text-lg text-white hover:underline" href="#tentang">Tentang</a></li>
+        <li><a class="text-lg text-white hover:underline" href="#berita">Berita</a></li>
+        <li><a class="text-lg text-white hover:underline" href="#belanja">Belanja</a></li>
+        <li>
+          <a class="text-lg  text-white hover:underline" href="#hubungikami">Hubungi Kami</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main class="w-full">
+      <section id="beranda" class="pt-[150px] text-white pb-[100px] flex flex-col gap-16 px-16 w-full justify-around items-center bg-[url('img/bg_c.png')] bg-cover">
+        <div class="w-full flex flex-col items-center gap-3">
+          <p class="text-[24px] font-medium">WELCOME TO</p>
+          <p class="text-[40px] font-bold">Batik Art Theraphy</p>
+          <p class="text-[24px] font-medium">Hidup lebih berarti dengan Baarthy</p>
+        </div>
+        <div class="flex flex-col">
+          <button class="flex w-[172px] h-11 justify-center items-center bg-[#EFCFA0] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[10px] text-[#532200] text-center text-base font-medium leading-[normal] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] px-[26px] py-2.5 rounded-[10px]">Kunjungi Kami</button>
+          <button class="inline-flex justify-center items-center gap-2.5 bg-[#EFCFA0] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] px-[26px] py-2.5 rounded-[10px] text-[#532200] text-center text-base font-medium leading-[normal]">Kunjungi Kami</button>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
